@@ -1,7 +1,15 @@
+html {
+    /* Elemento */
+    background-color: gray;
+}
+
 body {
     /* Elemento */
     width: 900px;
-    margin: auto;
+    padding: 10px;
+    margin: 10px auto auto auto;
+    background-color: white;
+    border-radius: 10px;
     /* Texto */
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: justify;
@@ -21,17 +29,41 @@ h2 {
     color: rgb(148, 221, 39);
     /* Borde */
     border-bottom-style: solid;
-    border-color: rgb(188, 252, 123);
+    border-color: rgb(182, 182, 182);
     border-width: 1px;
+}
+
+img {
+    /* Elemento */
+    width: 900px;
+    padding-top: 5px;
+}
+
+div {
+    /* Elemento */
+    clear: both;
 }
 
 main {
     /* Elemento */
     width: 760px;
     float: left;
+    background-image: linear-gradient(#e2e2e2, white 50%, #e2e2e2);
 }
 
-div {
+button {
+    /* Elemento */
+    width: 100px;
+    margin-bottom: 5px;
+    padding: 5px 0px 5px 0px;
+}
+
+a {
+    /* Texto */
+    text-decoration: none;
+}
+
+.contenido{
     /* Elemento */
     padding-left: 15px;
     padding-right: 15px;
@@ -39,18 +71,6 @@ div {
     border-style: solid;
     border-color: rgb(190, 190, 190);
     border-width: 1px;
-}
-
-button {
-    /* Elemento */
-    width: 100px;
-    margin-top: 5px;
-    padding: 5px 0px 5px 0px;
-}
-
-a {
-    /* Texto */
-    text-decoration: none;
 }
 
 .h1verde {
@@ -65,27 +85,38 @@ a {
 
 .menu {
     /* Elemento */
-    margin-top: 10px;
     width: 125px;
     float: left;
+    overflow: hidden;
 }
 
 .botonverde {
     /* Elemento */
-    background-color: rgb(195, 255, 135);
+    background-image: linear-gradient(white 30%, #c3ff87);
+    /* Borde */
+    border-width: 1px;
+    border-style: solid;
+    border-color: #e0dfdf;
+}
+
+.botoninicio {
+    /* Elemento */
+    background-image: linear-gradient(white, #fad7cb);
     /* Borde */
     border-width: 1px;
     border-style: solid;
     border-color: rgb(224, 223, 223);
 }
 
-.botoninicio {
-    /* Elemento */
-    background-color: rgb(255, 226, 216);
-    /* Borde */
-    border-width: 1px;
-    border-style: solid;
-    border-color: rgb(224, 223, 223);
+.ccimagen {
+    /* elemento */
+    padding-top: 5px;
+    width: 900px;
+    /* Texto */
+    color: lightgray;
+    font-size: small;
+    font-style: oblique;
+    text-align: center;
 }
 
 .grey {
@@ -98,12 +129,20 @@ a {
     color: rgb(0, 0, 0);
 }
 
+.underline {
+    /* texto */
+    text-decoration: underline;
+}
+
+
 .botoninicio:hover {
     /* Elemento */
-    background-color: orange;
+    background: linear-gradient(rgb(255, 203, 106), white);
 }
 
 .botonverde:hover {
     /* Elemento */
-    background-color: rgb(81, 255, 81);
+    background: linear-gradient(#b2fa6b, white);
 }
+
+
