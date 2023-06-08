@@ -1,6 +1,5 @@
 body {
     /* Elemento */
-    display: block;
     width: 900px;
     margin: auto;
     /* Texto */
@@ -32,12 +31,6 @@ main {
     float: left;
 }
 
-ul {
-    /* Elemento */
-    width: 100px;
-    float: left;
-}
-
 div {
     /* Elemento */
     padding-left: 15px;
@@ -48,6 +41,18 @@ div {
     border-width: 1px;
 }
 
+button {
+    /* Elemento */
+    width: 100px;
+    margin-top: 5px;
+    padding: 5px 0px 5px 0px;
+}
+
+a {
+    /* Texto */
+    text-decoration: none;
+}
+
 .h1verde {
     /* Texto */
     color: rgb(40, 182, 40);
@@ -56,4 +61,49 @@ div {
 .h1naranja {
     /* Texto */
     color: rgb(226, 152, 15);
+}
+
+.menu {
+    /* Elemento */
+    margin-top: 10px;
+    width: 125px;
+    float: left;
+}
+
+.botonverde {
+    /* Elemento */
+    background-color: rgb(195, 255, 135);
+    /* Borde */
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(224, 223, 223);
+}
+
+.botoninicio {
+    /* Elemento */
+    background-color: rgb(255, 226, 216);
+    /* Borde */
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(224, 223, 223);
+}
+
+.grey {
+    /* Texto */
+    color: rgb(95, 95, 95);
+}
+
+.black {
+    /* Texto */
+    color: rgb(0, 0, 0);
+}
+
+.botoninicio:hover {
+    /* Elemento */
+    background-color: orange;
+}
+
+.botonverde:hover {
+    /* Elemento */
+    background-color: rgb(81, 255, 81);
 }
