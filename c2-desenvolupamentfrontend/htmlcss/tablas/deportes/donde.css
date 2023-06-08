@@ -1,0 +1,39 @@
+body {
+    background-color: rgb(211, 211, 199);
+}
+
+#contenedor {
+    float: left;
+    box-shadow: 
+    2px 2px gray,
+    -2px -2px white;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 5px;
+    border-style: solid;
+    border-color: #39d7ff;
+    box-shadow: 
+    inset -1px -1px white,
+    inset 1px 1px gray;
+}
+
+th {
+    background-color: rgb(0, 83, 56);
+    color: #b1fdbe;
+}
+
+tr:nth-child(odd) td {
+    background-color: #71ff89;
+}
+
+tr:nth-child(even) td {
+    background-color: #b1fdbe;
+}
+
+
+
