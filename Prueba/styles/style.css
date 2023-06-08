@@ -10,10 +10,12 @@ p {
     background-color: aliceblue;
 }
 
+table, th ,td {
+    border-style: solid;
+}
+
 table {
     background-color: lightgray;
-    border-style: solid;
-    border
 }
 
 .botonatras {
