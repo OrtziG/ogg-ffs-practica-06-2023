@@ -1,0 +1,41 @@
+body {
+    color: rgb(192, 29, 0);
+}
+
+#tabla {
+    float: left;
+    box-shadow: 2px 2px rgb(0, 0, 0),
+    -2px -2px gray;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(226, 205, 149);
+    font-weight: normal;
+    text-align: center;
+    box-shadow: inset 1px 1px rgb(0, 0, 0);
+}
+
+.celdaverde { 
+    background-color: darkgreen;
+}
+
+.celdanaranja {
+    background-color: rgb(255, 219, 164);
+}
+
+.celdanota {
+    background-color: #ffffb5;
+}
+
+.celdahuellitas {
+    background-image: url(../images/huellitas.jpg);
+    background-size: 100px;
+    background-position: center;
+}
