@@ -1,6 +1,11 @@
 body {
+    /* Elemento */
+    display: block;
+    width: 900px;
+    margin: auto;
     /* Texto */
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: justify;
 }
 
 h1 {
@@ -13,7 +18,6 @@ h1 {
 h2 {
     /* Elemento */
     padding-top: 5px;
-    display: block;
     /* Texto */
     color: rgb(148, 221, 39);
     /* Borde */
@@ -24,13 +28,18 @@ h2 {
 
 main {
     /* Elemento */
-    padding-left: 20px;
-    padding-right: 20px;
+    width: 760px;
+    float: left;
+}
+
+ul {
+    /* Elemento */
+    width: 100px;
+    float: left;
 }
 
 div {
     /* Elemento */
-    display: block;
     padding-left: 15px;
     padding-right: 15px;
     /* Borde */
