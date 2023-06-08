@@ -10,15 +10,16 @@ p {
     background-color: aliceblue;
 }
 
-img {
-    width: 45%;
-    height: 45%;
+table {
+    background-color: lightgray;
+    border-style: solid;
+    border
 }
 
 .botonatras {
     font-size: 200px;
     background-color: white;
-    
+    margin-top: 50px;
 }
 
 .botonatras:hover {
