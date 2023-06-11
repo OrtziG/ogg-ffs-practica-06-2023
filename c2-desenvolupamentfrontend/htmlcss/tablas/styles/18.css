@@ -1,0 +1,30 @@
+div {
+    /* Suelo, Mario y nubes */
+    background: url(../images/f01.png) left bottom repeat-x, url(../images/f02.png) left bottom no-repeat, url(../images/f03.png) left top repeat-x;
+    /* Color de fondo */
+    background-color: skyblue;
+}
+
+.divanteriorposterior {
+    /* Clase para el primer y último div con borde azul y pequeño situados arriba y abajo */
+    /* Elemento */
+    display: flex;
+    width: 200px;
+    height: 100px;
+    /* Borde */
+    border-style: solid;
+    border-width: 1px;
+    border-color: blue;
+}
+
+#divcontenido {
+    /* Segundo div, el de contenido, que es el grande con borde rojo de 3px*/
+    /* Elemento */
+    margin: 20px;
+    width: 450px;
+    height: 375px;
+    /* Borde */
+    border-style: solid;
+    border-width: 3px;
+    border-color: red;
+}

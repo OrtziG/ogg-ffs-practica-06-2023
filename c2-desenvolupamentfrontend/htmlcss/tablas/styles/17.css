@@ -1,0 +1,89 @@
+body {
+    /* Fondo */
+    background-image: url(../images/ac.jpg);
+}
+
+div {
+    /* Elemento */
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    /* Letra */
+    padding-top: 10px;
+    text-align: center;
+    /* Borde */
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+}
+
+#A {
+    background-image: url(../images/back_mantel.jpg);
+}
+
+#B {
+    background-image: url(../images/back_mantel.jpg);
+    background-clip: content-box;
+}
+
+#C {
+    background-image: url(../images/back_mantel.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#D {
+    background-color: rgb(35, 81, 121);
+    background-image: url(../images/back_mantel.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 70%;
+}
+
+#E {
+    background-image: url(../images/dh.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#F {
+    background-color: rgb(35, 81, 121);
+    background-image: url(../images/dh.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 70%;
+}
+
+#G {
+    background-color: rgb(35, 81, 121);
+    background-image: url(../images/dh_2.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#H {
+    background-color: rgb(35, 81, 121);
+    background-image: url(../images/dh_3.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#I {
+    background: linear-gradient(to right, rgb(92, 211, 92), black 99%);
+}
+
+#J {
+    background: linear-gradient(rgb(255, 139, 139), black 80%, rgb(255, 195, 195));
+}
+
+#K {
+    background: linear-gradient(white, green);
+}
+
+#L {
+    background: linear-gradient(rgba(255, 255, 255, 0), green);
+}
