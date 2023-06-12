@@ -19,7 +19,7 @@ form {
 
 input {
     border-style: hidden;
-    width: 27vw;
+    width: 27.2vw;
 }
 
 button {
@@ -27,9 +27,8 @@ button {
 }
 
 #container {
-    padding: 10px;
-    width: 98.5%;
-    height: 98.5%;
+    width: 100vw;
+    height: 100vh;
 }
 
 #head {
@@ -50,8 +49,12 @@ button {
 }
 
 #main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     margin: 10px;
-    text-align: center;
+    height: 50vh;
 }
 
 #busqueda {
@@ -62,16 +65,47 @@ button {
     border-radius: 20px;
 }
 
+#botonesbusqueda > * {
+    background-color: aliceblue;
+    border-style: hidden;
+    height: 3vh;
+    width: 10vw;
+}
+
 #foot {
     background-color: rgb(238, 238, 238);
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
 }
 
 #pie-arriba {
+    display: flex;
     border-bottom: solid 1px lightgray;
+    padding-left: 10px;
 }
 
 #pie-abajo {
     display: flex;
+}
+
+#pa-izq {
+    width: 20vw;
+}
+
+#pa-centro {
+    width: 60vw;
+    text-align: center;
+}
+
+#pa-der {
+    width: 20vw;
+    text-align: right;
+}
+
+#pa-izq, #pa-centro, #pa-der > * {
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .glogo {
@@ -105,4 +139,8 @@ button {
 
 .gris {
     color: gray;
+}
+
+.espaciolinks {
+    padding-left: 10px;
 }
