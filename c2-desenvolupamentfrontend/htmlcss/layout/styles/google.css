@@ -1,0 +1,108 @@
+body {
+    background-color: white;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+form {
+    display: inline-block;
+    width: 30vw;
+    margin-top: 20px;
+    padding: 10px;
+    height: 2vh;
+    border: solid 1px lightgray;
+    border-radius: 20px;
+}
+
+input {
+    border-style: hidden;
+    width: 27vw;
+}
+
+button {
+    margin-top: 25px;
+}
+
+#container {
+    padding: 10px;
+    width: 98.5%;
+    height: 98.5%;
+}
+
+#head {
+    display: flex;
+    padding: 10px;
+}
+
+#nav-izq, #nav-der {
+    width: 50%;
+}
+
+#nav-izq, #nav-der > * {
+    padding-left: 20px;
+}
+
+#nav-der {
+    text-align: right;
+}
+
+#main {
+    margin: 10px;
+    text-align: center;
+}
+
+#busqueda {
+    margin-top: 20px;
+    padding: 10px;
+    height: 2vh;
+    border: solid 1px lightgray;
+    border-radius: 20px;
+}
+
+#foot {
+    background-color: rgb(238, 238, 238);
+}
+
+#pie-arriba {
+    border-bottom: solid 1px lightgray;
+}
+
+#pie-abajo {
+    display: flex;
+}
+
+.glogo {
+    height: 100px;
+    width: 300px;
+}
+
+.nuevedots {
+    width: 20px;
+    height: 20px;
+}
+
+.perfil {
+    width: 20px;
+    height: 20px;
+}
+
+.hoja {
+    width: 15px;
+    height: 15px;
+}
+
+.mic {
+    width: 20px;
+    height: 20px;
+}
+.lupa {
+    width: 20px;
+    height: 20px;
+}
+
+.gris {
+    color: gray;
+}

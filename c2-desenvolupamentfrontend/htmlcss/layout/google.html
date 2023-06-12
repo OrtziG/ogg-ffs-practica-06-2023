@@ -4,16 +4,82 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Google</title>
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./styles/google.css">
+    <link rel="shortcut icon" href="./img/logo_google_icon_143197.png" type="image/x-icon">
 </head>
 <body>
     <div id="container">
-        <div id="head"></div>
-        <div id="main">
-            <div id="busqueda"></div>
-            <div id="idiomas"></div>
+        <!-- Barra de navegación superior dividida en izquierda y derecha -->
+        <div id="head">
+        <!-- Barra de navegación derecha que contiene la tienda e información sobre google -->
+            <div id="nav-izq">
+                <a href="">Sobre Google</a>
+                <a href="">Tienda</a>
+            </div>
+            <!-- Barra de navegación izquierda que contiene información útil para el usuario -->
+            <div id="nav-der">
+                <a href="">Gmail</a>
+                <a href="">Imágenes</a>
+                <img class="nuevedots" src="./img/buttonsymbolofninedots_80014.png" alt="9 puntos">
+                <img class="perfil" src="./img/istockphoto-1337144146-612x612.png" alt="Foto de perfil">
+            </div>
         </div>
-        <div id="foot"></div>
+
+        <div id="main">
+
+            <div id="fotogg">
+                <img class="glogo" src="./img/Google_2015_logo.svg.png" alt="Logo de google">
+            </div>
+
+            <form>
+                <img class="lupa" src="./img/lupa.png" alt="Lupa">
+                <input type="text">
+                <img class="mic" src="./img/mic.png" alt="Lupa">
+            </form>
+            
+            <div>
+                <button>Buscar con Google</button>
+                <button>Voy a tener suerte</button>
+            </div>
+            
+            <div id="idiomas">
+                <p>
+                    Ofrecido por Google en: 
+                    <a href="">català</a>
+                    <a href="">galego</a>
+                    <a href="">euskara</a>
+                </p>
+            </div>
+
+        </div>
+
+        <div id="foot">
+            
+            <div id="pie-arriba">
+                <p class="gris">España</p>
+            </div>
+
+            <div id="pie-abajo">
+                <div id="pa-izq">
+                    <a href="">Publicidad</a>
+                    <a href="">Empresa</a>
+                    <a href="">Cómo funciona la Búsqueda</a>
+                </div>
+
+                <div id="pa-centro">
+                    <p>
+                        <img class="hoja" src="./img/20c556dc2371ca4a5552d0846a54b056-acuarela-de-hoja-de-arbol.png" alt="hojadebajaemisión">
+                        Emisión neutra de carbono desde el 2007
+                    </p>
+                </div>
+
+                <div id="pa-der">
+                    <a href="">Privacidad</a>
+                    <a href="">Términos</a>
+                    <a href="">Configuración</a>
+                </div>
+            </div>
+        </div>
     </div>
 </body>
 </html>
