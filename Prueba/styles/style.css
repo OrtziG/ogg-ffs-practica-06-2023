@@ -1,13 +1,6 @@
 body {
     background-color: greenyellow;
-}
-
-h1 {
-    background-color: blueviolet;
-}
-
-p {
-    background-color: aliceblue;
+    margin: 0px;
 }
 
 table, th ,td {
@@ -16,15 +9,52 @@ table, th ,td {
 
 table {
     background-color: lightgray;
+    border-collapse: collapse;
+    width: 100%;
 }
 
 .botonatras {
-    font-size: 200px;
     background-color: white;
     margin-top: 50px;
 }
 
 .botonatras:hover {
     background-color: aqua;
-    color: red;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-color: skyblue;
+}
+
+#head{
+    background-color: orange;
+    height: 10vw;
+}
+
+#main {
+    background-color: fuchsia;
+    height: 75vh;
+    display: flex;
+}
+
+#main-izq {
+    width: 20vw;
+}
+
+#main-der {
+    width: 80vw;
+    display: flex;
+}
+
+#foot {
+    display: flex;
+    background-color: yellow;
+    height: 10vw;
+}
+
+.footer-box {
+    background-color: blueviolet;
+    width: 20vw;
 }
