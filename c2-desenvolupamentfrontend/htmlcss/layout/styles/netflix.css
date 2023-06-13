@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    background-color: aqua;
+}
+
+#container {
+    width: 100vw;
+    height: 100vh;
+}
+
+#head {
+    display: flex;
+    padding: 10px;
+    background-color: black;
+}
+
+#barra-izq, #barra-der {
+    display: flex;
+    width: 50vw;
+    align-items: center;    
+}
+
+#barra-izq > a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+#barra-izq > a:hover {
+    font-weight: bolder;
+}
+
+#barra-der {
+    justify-content: right;
+}
+
+#barra-der > * {
+    height: 25px;
+    width: 25px;
+    margin-left: 20px;
+}
+
+#main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.barra {
+    background-color: brown;
+    color: white;
+}
+
+.logonetflix {
+    width: 125px;
+    height: 40px;
+    margin-right: 40px;
+}

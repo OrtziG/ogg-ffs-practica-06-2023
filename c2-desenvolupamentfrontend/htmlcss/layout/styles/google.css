@@ -22,10 +22,6 @@ input {
     width: 27.2vw;
 }
 
-button {
-    margin-top: 25px;
-}
-
 #container {
     width: 100vw;
     height: 100vh;
@@ -33,7 +29,6 @@ button {
 
 #head {
     display: flex;
-    padding: 10px;
 }
 
 #nav-izq, #nav-der {
@@ -65,11 +60,20 @@ button {
     border-radius: 20px;
 }
 
+#botonesbusqueda {
+    margin-top: 40px;
+}
+
 #botonesbusqueda > * {
     background-color: aliceblue;
     border-style: hidden;
     height: 3vh;
     width: 10vw;
+
+}
+
+#idiomas {
+    margin-top: 20px;
 }
 
 #foot {
