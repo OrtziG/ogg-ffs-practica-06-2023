@@ -8,23 +8,61 @@
     <link rel="stylesheet" href="../css/1.css">
 </head>
 <body>
-    <div class="container text-center">
+
+    <div class="container" id="cn-0">
         <div class="row">
             <div class="col logintext">
                 <h1>Login Form</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo ex nemo aliquid sit molestias numquam, repudiandae in.</p>
             </div>
         </div>
+        
+        <div class="row">
+            <div class="col-12">
+                <div id="formhead">
+                    <div id="formhead-text">
+                        <h2>Login to our site</h2>
+                        <p>Enter Username and Password</p>
+                    </div>
+                    <div id="formhead-candado">
+                        <img class="candado" src="../img/candado.png">
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div id="formmain">
+                    <form>
+                        <div class="mb-3">
+                            <input type="username" class="form-control" id="exampleInputEmail1" aria-describedby="UsernameHelp" placeholder="Username">
+                        </div>
+                        <div class="mb-3">
+                            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                        </div>
+                        <button type="submit" class="loginbtn">Log in</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <div id="loginwithtext">Login with</div>
+                <div id="loginwithimg">
+                    <button id="f">
+                        <img src="../img/f.png" alt="facebook">
+                        Facebook
+                    </button>
+                    <button id="t">
+                        <img src="../img/t.png" alt="Twitter">
+                        Twitter
+                    </button>
+                    <button id="gplus">
+                        <img src="../img/gplus.png" alt="Google Plus">
+                        Google Plus
+                    </button>
+                </div>
+            </div>
+        </div>
     </div>
-    
-    <form>
-        <div class="mb-3">
-            <input type="username" class="form-control" id="exampleInputEmail1" aria-describedby="UsernameHelp" placeholder="Username">
-        </div>
-        <div class="mb-3">
-            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-        </div>
-        <button type="submit" class="btn btn-primary">Log in</button>
-    </form>
 </body>
 </html>

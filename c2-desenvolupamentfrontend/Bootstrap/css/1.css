@@ -2,6 +2,99 @@ body {
     background-image: url(../img/loginbackground.jpg);
 }
 
+h2 {
+    font-size: 20px;
+}
+
+#cn-0 {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+}
+
 .logintext {
     color: aliceblue;
+    text-align: center;
+}
+
+#formcontainer {
+    width: 50vw;
+}
+
+#formhead {
+    display: flex;
+    background-color: aliceblue;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 3px 3px 0 0;
+}
+
+#formhead-text {
+    width: 50vw;
+    color: gray;
+}
+#formhead-text > p {
+    font-size: small;
+}
+
+#formhead-candado {
+    width: 50vw;
+    text-align: right;
+}
+.candado {
+    height: 30px;
+    width: 30px;
+}
+
+#formmain {
+    background-color: rgb(136, 150, 155);
+    padding: 10px;
+    border-radius: 0 0 3px 3px;
+}
+
+.loginbtn {
+    width: 100%;
+    background-color: aquamarine;
+    border-radius: 3px;
+    border-width: 0;
+}
+.loginbtn:hover {
+    background-color: rgb(102, 201, 170);
+}
+
+#loginwithtext {
+    display: flex;
+    height: 7vh;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: small;
+}
+
+#loginwithimg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 7vh;
+}
+
+#loginwithimg > button {
+    background-color: rgb(37, 37, 37);
+    color: lightgrey;
+    height: 40px;
+    border-color: lightgray;
+    border-radius: 5px;
+}
+
+#loginwithimg > #t, #gplus {
+    margin-left: 10px;
+}
+
+#loginwithimg > button > img {
+    margin: auto;
+    align-self: center;
+    height: 14px;
+    width: 15px;
 }
