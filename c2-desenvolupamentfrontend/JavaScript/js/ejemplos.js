@@ -21,6 +21,8 @@ let res = 10 % 2;
 
 // Otros operadores: && || == != === !==
 
+// Pedir datos: promt('lo que se deba pedir');
+
 // Condicionales
 let age = prompt('Escriba su edad');
 age = +age;
@@ -61,5 +63,27 @@ switch (dia) {
 }
 
 // Bucles
+// While
+let saldo = 10;
+
+while (saldo > 10) {
+    console.log('Has consumido 1€');
+    saldo -= 1; //Iterador
+    console.log('Te quedan ' + saldo + '€');
+}
+
+// Do While
+do {
+    console.log('Has consumido 1€');
+    saldo -= 1; //Iterador
+    console.log('Te quedan ' + saldo + '€');
+} while (saldo > 10)
+
+// For
+let tabla = prompt('Numero de tabla');
+
+for (let i = 0; i <= 10; i++) {
+    console.log(`${tabla} x ${i} = ${tabla*i}`);
+}
 
 
